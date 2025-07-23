@@ -1,0 +1,10 @@
+region          = "us-east-1"
+project_name    = "rancher"
+vpc_cidr        = "10.10.0.0/16"
+public_subnet_cidr = "10.10.1.0/24"
+private_subnet_cidr = "10.10.2.0/24"
+ami_id          = "ami-05ffe3c48a9991133"
+instance_type   = "t2.large"
+key_name        = "rancher"
+ssh_allow_cidr  = "0.0.0.0/0"
+public_instance_disk_size = 20
